@@ -1,0 +1,45 @@
+{
+    "name": "react-load-image",
+    "version": "1.0.0",
+    "description": "Use blueimp-load-image in React",
+    "main": "bin/index.js",
+    "typings": "bin/index.d.ts",
+    "scripts": {
+        "prepublishOnly": "npm run review && npm run build",
+        "build": "tsc",
+        "lint": "tslint -c tslint.json index.tsx",
+        "review": "npm run test && npm run lint"
+    },
+    "files": [
+        "bin/"
+    ],
+    "keywords": [
+        "react",
+        "image",
+        "load",
+        "canvas"
+    ],
+    "license": "MIT",
+    "author": "NewOrbit Ltd",
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/NewOrbit/react-load-image.git"
+    },
+    "bugs": {
+        "url": "https://github.com/NewOrbit/react-load-image/issues"
+    },
+    "homepage": "https://github.com/NewOrbit/react-load-image#readme",
+    "dependencies": {
+        "@types/react": "^16.8.7",
+        "blueimp-load-image": "^2.20.1"
+    },
+    "devDependencies": {
+        "neworbit-tslint-config": "^2.0.0",
+        "react": "^16.8.4",
+        "tslint": "^5.9.1",
+        "typescript": "^3.0.3"
+    },
+    "peerDependencies": {
+        "react": "16.x"
+    }
+}
