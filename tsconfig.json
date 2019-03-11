@@ -1,0 +1,16 @@
+{
+    "compilerOptions": {
+        "experimentalDecorators": true,
+        "module": "commonjs",
+        "moduleResolution": "node",
+        "jsx": "react",
+        "lib": [
+            "es2015", "dom"
+        ],
+        "declaration": true,
+        "outDir": "bin"
+    },
+    "files": [
+        "src/index.ts"
+    ]
+}
