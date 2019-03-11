@@ -1,15 +1,15 @@
-# react-load-image
+# load-image-react
 
 Use [blueimp-load-image](https://www.npmjs.com/package/blueimp-load-image) in React
 
 ## Installation
 
-    npm install react-load-image
+    npm install load-image-react
 
 ## Usage
 
 ```typescript
-import { Image } from "react-load-image";
+import { Image } from "load-image-react";
 
 const SomeComponent = () => {
     return (
