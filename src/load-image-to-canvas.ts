@@ -28,11 +28,7 @@ const defaultOptions: LoadImageOptions = {
     orientation: true
 };
 
-const getOptions = (options: LoadImageOptions) => {
-    if (!options) {
-        return defaultOptions;
-    }
-
+const getOptions = (options: LoadImageOptions = {}) => {
     return {
         ...options,
         ...defaultOptions
@@ -43,7 +39,8 @@ export const loadImageToCanvas = (src: string, options: LoadImageOptions) => {
     const opts = getOptions(options);
 
     return new Promise<HTMLCanvasElement>(resolve => {
-        loadImage(src,
+        loadImage(
+            src,
             (canvas: HTMLCanvasElement) => resolve(canvas),
             opts
         );

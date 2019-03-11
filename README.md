@@ -8,24 +8,25 @@ Use [blueimp-load-image](https://www.npmjs.com/package/blueimp-load-image) in Re
 
 ## Usage
 
-    import { Image } from "react-load-image";
+```typescript
+import { Image } from "react-load-image";
 
-    const SomeComponent = () => {
-        return (
-            <>
-                <h2>My Image</h2>
-
-                <Image
-                    src="some-image-url.png"
-                    loadOptions={{
-                        downsamplingRatio: 0.5,
-                        maxWidth: 200,
-                        maxHeight: 200
-                    }}
-                >
-            </>
-        );
-    };
+const SomeComponent = () => {
+    return (
+        <>
+            <h2>My Image</h2>
+            <Image
+                src="some-image-url.png"
+                loadOptions={{
+                    downsamplingRatio: 0.5,
+                    maxWidth: 200,
+                    maxHeight: 200
+                }}
+            />
+        </>
+    );
+};
+```
 
 ### Load options
 

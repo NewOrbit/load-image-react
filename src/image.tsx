@@ -3,7 +3,6 @@ import { loadImageToCanvas, LoadImageOptions } from "./load-image-to-canvas";
 
 interface ImageProps {
     src: string;
-
     loadOptions?: LoadImageOptions;
 }
 
