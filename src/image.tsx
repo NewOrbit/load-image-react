@@ -32,6 +32,6 @@ export class Image extends React.Component<ImageProps> {
 
         const canvas = await loadImageToCanvas(this.props.src, this.props.loadOptions);
 
-        this.container.appendChild(canvas);
+        this.container?.appendChild(canvas);
     }
 }
