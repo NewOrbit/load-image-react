@@ -1,6 +1,6 @@
 {
     "name": "load-image-react",
-    "version": "1.0.0",
+    "version": "1.0.2",
     "description": "Use blueimp-load-image in React",
     "main": "bin/index.js",
     "typings": "bin/index.d.ts",
