@@ -34,7 +34,7 @@
     },
     "devDependencies": {
         "@types/react": "^16.8.7",
-        "neworbit-tslint-config": "^2.0.0",
+        "neworbit-tslint-config": "^6.0.0",
         "react": "^16.8.4",
         "tslint": "^6.1.1",
         "typescript": "^3.7.4"
