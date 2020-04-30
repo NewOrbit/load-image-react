@@ -30,7 +30,7 @@
     },
     "homepage": "https://github.com/NewOrbit/load-image-react#readme",
     "dependencies": {
-        "blueimp-load-image": "^2.20.1"
+        "blueimp-load-image": "^5.0.1"
     },
     "devDependencies": {
         "@types/react": "^16.8.7",
