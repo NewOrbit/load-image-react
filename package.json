@@ -37,7 +37,7 @@
         "neworbit-tslint-config": "^2.0.0",
         "react": "^16.8.4",
         "tslint": "^6.1.1",
-        "typescript": "^3.7.4"
+        "typescript": "^4.2.2"
     },
     "peerDependencies": {
         "@types/react": "^16.x",
